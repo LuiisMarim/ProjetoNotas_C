@@ -1,2 +1,23 @@
-# ProjetoNotas_C
- Este código em linguagem C oferece um sistema para gerenciamento de notas de disciplinas acadêmicas. Ele proporciona diversas funcionalidades através de um menu interativo. Ao ser executado, o programa exibe um menu que permite ao usuário realizar várias operações, como cadastrar turmas, inscrever alunos, cadastrar notas, gerar relatórios e remover alunos cadastrados.  No código, são definidas funções para cada uma dessas operações. A função menu() exibe o menu para o usuário e retorna a escolha feita. cadastroDisciplina() possibilita o cadastro de uma nova turma, incluindo nome do professor, nome da disciplina e código. Ela verifica se a disciplina já está cadastrada antes de criar um arquivo binário com as informações.  cadastroAluno() permite cadastrar alunos em uma disciplina específica, verificando se a disciplina existe e se há espaço disponível. As informações do aluno são armazenadas em um arquivo correspondente à disciplina. apagaAluno() remove um aluno de uma disciplina, solicitando o nome da disciplina e o número de identificação do aluno a ser removido.  cadastroNotas() registra as notas de um aluno em uma disciplina, calculando a média ponderada e armazenando essas informações em um arquivo de notas. gerar_relatorio() gera um relatório de turma para uma disciplina selecionada, exibindo as notas e informações dos alunos e gerando um arquivo CSV com as mesmas informações.  O código é bem organizado e comentado, facilitando a compreensão das funcionalidades implementadas. Ele utiliza arquivos binários para armazenar informações sobre disciplinas e notas dos alunos, além de gerar arquivos CSV para relatórios.
+# Sistema Acadêmico de Registro. 📝
+Este código em linguagem C oferece um sistema para gerenciamento de notas de disciplinas acadêmicas. 📑
+
+## Sobre o desenvolvimento. 🖥️
+O projeto consiste em uma aplicação de um sistema de registro acadêmico utilizando a linguagem de codificação C e o salvamento em arquivos do tipo .CSV. 📊
+
+## Tecnologias utilizadas. ✔️
+
+<div style="display: inline-block"><br/>
+    <img align="center" alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+    <img align="center" alt="EXCEL" src=	"https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
+    <br/><br/>
+</div>
+
+## Funcionalidades. ⚙️
+
+### Menu. 🧾
+
+<p align = "middle">
+<img src=""/>
+
+
+
